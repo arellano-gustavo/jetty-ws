@@ -33,7 +33,7 @@ public class CustomEndPoint {
             public void run() {
                 DecimalFormat df = new DecimalFormat("#.####");
                 while (true) {
-                    double d = 3 + Math.random();
+                    double d = gus + Math.random();
                     if (queue != null)
                         sendAll(df.format(d));
                     try {
