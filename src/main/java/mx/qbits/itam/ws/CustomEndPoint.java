@@ -18,7 +18,6 @@ https://examples.javacodegeeks.com/enterprise-java/tomcat/apache-tomcat-websocke
 https://dzone.com/articles/sample-java-web-socket-client
 http://www.eclipse.org/jetty/documentation/9.4.x/embedding-jetty.html
 https://examples.javacodegeeks.com/enterprise-java/jetty/jetty-websocket-example/
-goose 4
 */
 
 @ServerEndpoint("/websocketendpoint")
@@ -34,7 +33,7 @@ public class CustomEndPoint {
             public void run() {
                 DecimalFormat df = new DecimalFormat("#.####");
                 while (true) {
-                    double d = 1 + Math.random();
+                    double d = 2 + Math.random();
                     if (queue != null)
                         sendAll(df.format(d));
                     try {
