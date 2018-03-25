@@ -18,7 +18,7 @@ https://examples.javacodegeeks.com/enterprise-java/tomcat/apache-tomcat-websocke
 https://dzone.com/articles/sample-java-web-socket-client
 http://www.eclipse.org/jetty/documentation/9.4.x/embedding-jetty.html
 https://examples.javacodegeeks.com/enterprise-java/jetty/jetty-websocket-example/
-goose 2
+goose 3
 */
 
 @ServerEndpoint("/websocketendpoint")
