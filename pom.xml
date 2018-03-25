@@ -57,6 +57,23 @@
         </plugins>
 
     </build>
+    
+    <repositories>
+        <repository>
+            <id>nexus.kebblar.io-repo</id>
+            <url>http://18.219.103.59:8081/repository/all/</url>
+            <name>Kebblar Repository</name>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus.kebblar.io-repo</id>
+            <url>http://18.219.103.59:8081/repository/kebblar/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>    
+    
 
     <dependencies>
         <dependency>
