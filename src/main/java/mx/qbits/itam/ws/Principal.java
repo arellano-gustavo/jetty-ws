@@ -1,11 +1,15 @@
 package mx.qbits.itam.ws;
 
 import javax.websocket.server.ServerContainer;
+
+import org.apache.log4j.Logger;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer;
 
 public class Principal {
+    private final static Logger LOG = Logger.getLogger(Principal.class);
+    
     public static void main(String...argv) {
         try {
             doit();
@@ -15,6 +19,7 @@ public class Principal {
     }
 
     private static void doit() throws Exception {
+        LOG.info("Oky !!! Lets do this !!!!!"); 
         Server server = new Server(8080);
 
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
