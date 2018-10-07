@@ -8,6 +8,6 @@ public class CalcService {
     // cambiar el nombre de este método de "divide" a "Divide" y
     // revisar qué efecto tuvo en Jenkins
     public double divide(int a, int b) {
-        return a/b
+        return a/b;
     }
 }
