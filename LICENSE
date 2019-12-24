@@ -1,9 +1,9 @@
                     GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007...+...+...
+                       Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
+ of this license document, but changing it is not allowed....+...+...+...+...+
 
                             Preamble
 
@@ -35,7 +35,7 @@ you modify it: responsibilities to respect the freedom of others.
 gratis or for a fee, you must pass on to the recipients the same
 freedoms that you received.  You must make sure that they, too, receive
 or can get the source code.  And you must show them these terms so they
-know their rights.
+know their rights.........
 
   Developers that use the GNU GPL protect your rights with two steps:
 (1) assert copyright on the software, and (2) offer you this License
@@ -424,7 +424,7 @@ reinstated permanently if the copyright holder notifies you of the
 violation by some reasonable means, this is the first time you have
 received notice of violation of this License (for any work) from that
 copyright holder, and you cure the violation prior to 30 days after
-your receipt of the notice.
+your receipt of the notice..
 
   Termination of your rights under this section does not terminate the
 licenses of parties who have received copies or rights from you under
